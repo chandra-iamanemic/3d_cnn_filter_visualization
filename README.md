@@ -8,21 +8,21 @@ For the purpose of differentiating videos its not enough just to learn features 
 
 Once again, A GIF speaks a million words
 
-![](images/3d conv gif.gif)
+![](images/3d%20conv%20gif.gif)
 image source : https://medium.com/apache-mxnet/1d-3d-convolutions-explained-with-ms-excel-5f88c0f35941
 
 ### A python script to visualize what are the features extracted by 3D convolution filters
 
 We first record 16 images from a video of a hand gesture (making a simple wave) and we stack these images one behind the other. When we move through this stack in time we can see the hand moving to form the wave gesture.
 
-![](images/wave motion.gif)
+![](images/wave%20motion.gif)
 
 
 ### The 3D convolution function
 
 Let's take a look at this simple function which performs 3D convolution of the input image and the filters
 
-![](images/3d conv function.png)
+![](images/3d%20conv%20function.png)
 
 If you followed the simple python script that we used to perform convolution on static image of a cat. This function is just the extension of the same concept/math into one extra dimension. This essentially means we loop over one more dimension while performing convolution. Instead of taking slices of 2D image to convolve with a 2D filter, we are going to take a volume sliced from stacked images/frames to convolve with a 3D volume(filter).
 
